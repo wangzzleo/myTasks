@@ -9,3 +9,7 @@
 ## 待完成
 
 1. 使用JDK自带的JAXB进行Java对象和XML转换时候遇到的问题：```Feature 'http://javax.xml.XMLConstants/feature/secure-processing' is not recognized.```根据双亲委派机制，应该会先到JDK路径找的吧，为什么会先加载扩展包的实现类呢？我对双亲委派模型本来就有点迷，更加迷了，改日细细研究一番。
+
+2. git fetch & pull 区别
+
+3. git reset & revert区别
