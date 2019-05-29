@@ -19,7 +19,7 @@
 7. shell脚本
 
    学习资源：[鸟哥的Linux私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php)
-   我的笔记：[shell脚本学习笔记](./mySkills./shell脚本学习笔记.md)
+   我的笔记：[shell脚本学习笔记](./mySkills/shell脚本学习笔记.md)
 
 8. 玩转Spring全家桶（极客时间）
 
