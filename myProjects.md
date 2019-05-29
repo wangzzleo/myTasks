@@ -13,8 +13,8 @@
 
 ## 致未来
 
-[农校通](https://github.com/wangzzleo/letter2Future)
+[致未来](https://github.com/wangzzleo/letter2Future)
 
 ## 我在
 
-[农校通](https://github.com/wangzzleo/online)
+[我在](https://github.com/wangzzleo/online)
