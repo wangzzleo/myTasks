@@ -6,7 +6,7 @@
 
 2. 数据结构算法
 
-  [算法面试通关40讲](https://time.geekbang.org/course/intro/130)
+   [算法面试通关40讲](https://time.geekbang.org/course/intro/130)
 
 3. 计算机组成原理
 
@@ -18,15 +18,15 @@
 
 7. shell脚本
 
-  [鸟哥的Linux私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php)
+   [鸟哥的Linux私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php)
 
 8. 玩转Spring全家桶（极客时间）
 
-  [玩转Spring全家桶（极客时间）](https://time.geekbang.org/course/intro/156)
+   [玩转Spring全家桶（极客时间）](https://time.geekbang.org/course/intro/156)
 
 9. Java核心36讲（极客时间)
 
-  [Java核心36讲（极客时间)](https://time.geekbang.org/column/article/8053)
+   [Java核心36讲（极客时间)](https://time.geekbang.org/column/article/8053)
 
 10. 设计模式系统学习
 
