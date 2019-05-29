@@ -11,9 +11,9 @@
 
 ## 我的待学习技能列表
 
-[待学习技能](/myTasks/mySkills.md)
+[待学习技能](./mySkills.md)
 
 ## 我的待探究疑问
 
-[待探究疑问](/myTasks/myQuestions.md)
+[待探究疑问](./myQuestions.md)
 
