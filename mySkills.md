@@ -42,6 +42,6 @@
 
 14. Redis小册
 
-      [学习资源：掘进小册](https://juejin.im/book/5afc2e5f6fb9a07a9b362527)
+      [学习资源：掘金小册](https://juejin.im/book/5afc2e5f6fb9a07a9b362527)
    
 
