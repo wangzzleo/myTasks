@@ -2,7 +2,7 @@
 
 1. C语言
 
-   [学习资源：程序设计入门——C语言](https://www.icourse163.org/course/0809ZJU007A-199001)
+   [学习资源：程序设计入门——C语言](https://www.icourse163.org/course/0809ZJU007A-199001)  
    [程序demo：c程序demo](https://github.com/wangzzleo/cProgramDemo)
 
 2. 数据结构算法
@@ -21,7 +21,7 @@
 
 7. shell脚本
 
-   [学习资源：鸟哥的Linux私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php)
+   [学习资源：鸟哥的Linux私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php)  
    [我的笔记：shell脚本学习笔记](./mySkills/shell脚本学习笔记.md)
 
 8. 玩转Spring全家桶（极客时间）
@@ -42,4 +42,6 @@
 
 14. Redis小册
 
-   [学习资源：掘进小册](https://juejin.im/book/5afc2e5f6fb9a07a9b362527)
+      [学习资源：掘进小册](https://juejin.im/book/5afc2e5f6fb9a07a9b362527)
+   
+
