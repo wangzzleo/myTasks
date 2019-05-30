@@ -13,3 +13,6 @@
 	7. 扩增变量内容时，可用 ```$变量名称``` 或 ```${变量}``` 累加内容，如下所示：```PATH="$PATH":/home/bin```
 	8. 若该变量需要在其他子程序运行，则需要以 [export](https://www.runoob.com/linux/linux-comm-export.html) 来使变量变成环境变量：```export PATH```
 	9. 取消变量的方法为使用 unset ：```unset 变量名称```。例如取消 myname 的配置：```unset myname```。
+
+4. 什么是“子程序”？是在目前这个shell况下，去激活另一个新的shell，新的 shell 就是子程序。在一般的状态下，父程序的自定义变量是无法在子程序内使用的。但是透过 export 将变量变成环境变量后，就能够在子程序底下使用。
+5. 
