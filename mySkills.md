@@ -3,6 +3,7 @@
 1. C语言
 
    学习资源：[程序设计入门——C语言](https://www.icourse163.org/course/0809ZJU007A-199001)
+   程序demo：[c程序demo](https://github.com/wangzzleo/cProgramDemo)
 
 2. 数据结构算法
 
@@ -15,6 +16,8 @@
 5. 数据库原理
 
 6. Python
+   
+   程序demo：[Python程序demo](https://github.com/wangzzleo/pyDemo)
 
 7. shell脚本
 
