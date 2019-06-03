@@ -18,3 +18,7 @@
 
 [待探究疑问](./myQuestions.md)
 
+## 我的笔记
+
+[我的笔记](./myNotes.md)
+
