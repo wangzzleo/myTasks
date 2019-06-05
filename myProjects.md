@@ -11,7 +11,7 @@
 [农校通](https://github.com/wangzzleo/pea2U)
 [农校通-微信小程序](https://github.com/wangzzleo/pea2U-wx)
 
-## 致未来
+## 致未来  正在进行
 
 [致未来](https://github.com/wangzzleo/letter2Future)
 
