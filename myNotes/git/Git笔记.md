@@ -41,3 +41,9 @@ git reset --soft 只会移动HEAD指针的位置，不会改变暂存区和工�
 git remote add origin git@github.com:wangzzleo/online.git
 git push -u origin master
 ```
+
+10. 获取远程仓库指定分支内容
+	- git pull <远程仓库名> <远程分支>:<本地分支>  
+	  如果要与当前分支merge，则不需要写冒号后的本地分支；如果当前分支与目标分支有关联关系，则远程分支名也可以省略。
+	- git checkout -b 本地分支名 origin/远程分支名  
+	  会创建一个新的本地分支切换过去，并与制定远程分支关联。
