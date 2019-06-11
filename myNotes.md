@@ -41,7 +41,7 @@
 ## [数据结构与算法](./myNotes/数据结构与算法)
    1. [leetcode-2019年4月16日](./myNotes/数据结构与算法/leetcode-2019年4月16日.md)
 ## [数据库](./myNotes/数据库)
-   1. [MySQL 登录异常](./myNotes/数据库/MySQL 登录异常.md)
+   1. [MySQL 登录异常](./myNotes/数据库/MySQL%20登录异常.md)
    2. [MySQL中SQL语句执行](./myNotes/数据库/MySQL中SQL语句执行.md)
    3. [MySQL事务隔离级别](./myNotes/数据库/MySQL事务隔离级别.md)
    4. [MySQL创建函数错误](./myNotes/数据库/MySQL创建函数错误.md)
