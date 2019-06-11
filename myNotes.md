@@ -6,8 +6,17 @@
    1. [Git笔记](./myNotes/git/Git笔记.md)
 
 ## [Java开发](./myNotes/Java开发)
-   1. [SpringBoot](./myNotes/Java开发/SpringBoot.md)  
-   2. [面向对象](./myNotes/Java开发/面向对象.md)
+   1. [Java新特性-待更新](./myNotes/Java开发/Java新特性-待更新.md)
+   2. [Tomcat无法shutdown关闭问题](./myNotes/Java开发/Tomcat无法shutdown关闭问题.md)
+   3. [一个XML解析错误的排查](./myNotes/Java开发/一个XML解析错误的排查.md)
+   4. [从intern函数产生的疑问](./myNotes/Java开发/从intern函数产生的疑问.md)
+   5. [如何使用javac递归编译目录下所有java文件](./myNotes/Java开发/如何使用javac递归编译目录下所有java文件.md)
+   6. [日常更新学习资料](./myNotes/Java开发/日常更新学习资料.md)
+   7. [日常笔记](./myNotes/Java开发/日常笔记.md)
+   8. [日志配置-logback](./myNotes/Java开发/日志配置-logback.md)
+   9. [架构演变史](./myNotes/Java开发/架构演变史.md)
+   10. [转问题+回答-有哪些质量很高的Java面试题](./myNotes/Java开发/转问题+回答-有哪些质量很高的Java面试题.md)
+   11. [面向对象](./myNotes/Java开发/面向对象.md)
 ## [JVM](./myNotes/JVM)
    1. [JVM笔记](./myNotes/JVM/JVM笔记.md)
 ## [Linux相关](./myNotes/Linux相关)
@@ -29,6 +38,7 @@
 
 ## [Spring](./myNotes/Spring)
    1. [玩转Spring全家桶 -- 学习笔记](./myNotes/Spring/玩转Spring全家桶%20--%20学习笔记.md)
+   1. [SpringBoot](./myNotes/Spring/SpringBoot.md)
 
 ## [并发](./myNotes/并发)
    1. [ThreadLocal原理](./myNotes/并发/ThreadLocal原理.md)
@@ -36,8 +46,8 @@
    3. [锁](./myNotes/并发/锁.md)
    4. [项目中多线程使用的场景](./myNotes/并发/项目中多线程使用的场景.md)
 ## [日记本](./myNotes/日记本)
-   1. [dabashow项目说明文档.md](./myNotes/日记本/dabashow项目说明文档.md)
-   2. [日记本](./myNotes/日记本/日记本.md)
+   1. [dabashow项目说明文档](./myNotes/日记本/dabashow项目说明文档.md)
+   2. [面试问题总结](./myNotes/日记本/面试问题总结.md)
 ## [数据结构与算法](./myNotes/数据结构与算法)
    1. [leetcode-2019年4月16日](./myNotes/数据结构与算法/leetcode-2019年4月16日.md)
 ## [数据库](./myNotes/数据库)
@@ -52,6 +62,9 @@
    1. [HTTPS](./myNotes/网络/HTTPS.md)
    2. [《你猜一个 TCP 连接上面能发多少个 HTTP 请求》笔记](./myNotes/网络/《你猜一个%20TCP%20连接上面能发多少个%20HTTP%20请求》笔记.md)
 ## [原创小说](./myNotes/原创小说)
+   1. [大宝与二宝](./myNotes/原创小说/大宝与二宝.md)
+   2. [故乡的真相](./myNotes/原创小说/故乡的真相.md)
+   3. [高考上上签](./myNotes/原创小说/高考上上签.md)
    
 
 
