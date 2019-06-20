@@ -1,3 +1,8 @@
+#Git学习资源
+[[1] 阮一峰老师：常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)  
+[[2] Git算不算程序员的必备技能？ - 慕课网的回答 - 知乎](https://www.zhihu.com/question/41667536/answer/486640083)
+
+# git笔记
 1. 项目中如果想知道某处代码是谁提交的，可以使用```git blame my_file```,如下：  
 ![blame演示.png](https://upload-images.jianshu.io/upload_images/13572633-846045895b6765ae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 也可以指定行：

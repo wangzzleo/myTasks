@@ -1,4 +1,4 @@
-# 我的待探究疑问
+hui # 我的待探究疑问
 
 ## 已完成
 
@@ -21,4 +21,5 @@ pull会主动merge远程仓库与本地仓库代码，fetch需要手动merge。g
 ## 待完成
 
 1. 使用JDK自带的JAXB进行Java对象和XML转换时```Feature 'http://javax.xml.XMLConstants/feature/secure-processing' is not recognized.```。我的疑问：按照双亲委派机制，应该会先到JDK路径找的吧，为什么会先加载扩展包的实现类呢？  
+2. Maven 正常打包，调用时候报NoSuchMethod。打包时依赖jar的module与打包的项目处于Intellij IDEA的同一级project下面。
 
