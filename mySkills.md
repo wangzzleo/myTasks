@@ -1,6 +1,6 @@
 # 我的待学习技能
 
-1. [学习资源：程序设计入门——C语言](https://www.icourse163.org/course/0809ZJU007A-199001)  
+1. [学习资源：程序设计入门——C语言](https://www.icourse163.org/course/0809ZJU007A-199001)  √
    [程序demo：c程序demo](https://github.com/wangzzleo/cProgramDemo)
 
 2. [学习资源算法面试通关40讲](https://time.geekbang.org/course/intro/130)
