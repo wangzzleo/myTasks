@@ -276,12 +276,65 @@
 	- tee 会同时将数据流分送到文件去与屏幕 (screen)；而输出到屏幕的，其实就是 stdout ，可以让下个命令继续处理喔！
 
 6. 字符转换命令： ```tr, col, join, paste, expand```
+	1. ```tr - translate or delete characters```替换或者删除字符串。
+		- ```tr [-ds] SET1 ...```
+			- ```-d```  ：删除信息当中的 SET1 这个字符串；
+			- ```-s```  ：取代掉重复的字符！
+		- 例子：```cat passwd |tr -d '\r' > ~/passwd.linux```
+	2. ``` col - filter reverse line feeds from input```
+		- col [-xb]
+			- ```-x```  ：将 tab 键转换成对等的空格键
+			- ```-b```  ：在文字内有反斜杠 (/) 时，仅保留反斜杠最后接的那个字符
+		- 例子```cat testChar.c|col -x|cat -A``
+	3. ```join - join lines of two files on a common field```
+		- ```join [-ti12] file1 file2```
+			- -t  ：join 默认以空格符分隔数据，并且比对『第一个字段』的数据，
+      如果两个文件相同，则将两笔数据联成一行，且第一个字段放在第一个！
+			- ```-i```  ：忽略大小写的差异；
+			- ```-1```  ：这个是数字的 1 ，代表『第一个文件要用那个字段来分析』的意思；
+			- ```-2```  ：代表『第二个文件要用那个字段来分析』的意思。
+
+	4. ```paste - merge lines of files```
+		- 将两行贴在一起，且中间以 [tab] 键隔开
+		- ```paste [-d] file1 file2```
+			- ```-d```  ：后面可以接分隔字符。默认是以 [tab] 来分隔的！
+			- ```-```   ：如果 file 部分写成 - ，表示来自 standard input 的数据的意思
+		- 例子：```cat /etc/group|paste /etc/passwd /etc/shadow -|head -n 3```
+
+	5. ```expand - convert tabs to spaces```
+		- 将tab按键转成空格键（ps：这不就是```col -x``` 吗）
+		- ```expand [-t] file```
+			- ```-t```  ：后面可以接数字。一般来说，一个 tab 按键可以用 8 个空格键取代。
+      我们也可以自行定义一个 [tab] 按键代表多少个字符呢！
+		- 例子：```grep '^MANPATH' /etc/man_db.conf |head -n 3|expand -t 1|cat -A```，注意这儿添加多少空格并不是死值。
 
 
 7. 分割命令： split
+	- ```split - split a file into pieces```
+	- 依据文件大小或者行数来分割文件。
+	- ```split [-bl] file PREFIX```
+		- ```-b```  ：后面可接欲分割成的文件大小，可加单位，例如 b, k, m 等；
+		- ```-l```  ：以行数来进行分割。
+	- PREFIX ：代表前导符的意思，可作为分割文件的前导文字。
+	- 例子：```ls -al / | split -l 10 - lsroot```，这里注意，如果你忽略了```-```，也就是这样输入```ls -al|split -l 10 lsroot.```，你会得到这个错误：```split: cannot open ‘ls.’ for reading: No such file or directory```。因为这里没有文件，这里的 - 就会被当成 stdin 或 stdout。
 
-
-8. 参数代换： xargs
-
+8. 参数替换xargs
+	-  ```xargs - build and execute command lines from standard input```
+	- ```xargs [-0epn] command```
+		- ```-0```  ：如果输入的 stdin 含有特殊字符，例如 `, \, 空格键等等字符时，这个 -0 参数
+      可以将他还原成一般字符。这个参数可以用于特殊状态喔！
+		- ```-e```  ：这个是 EOF (end of file) 的意思。后面可以接一个字符串，当 xargs 分析到
+      这个字符串时，就会停止继续工作！
+		- ```-p```  ：在运行每个命令的 argument 时，都会询问使用者的意思；
+		- ```-n```  ：后面接次数，每次 command 命令运行时，要使用几个参数的意思。看范例三。
+		- 当 xargs 后面没有接任何的命令时，默认是以 echo 来进行输出！
+	- 例子：```find /sbin -perm +7000 | xargs ls -l```，```find ./ -name "*" |xargs -p grep -n "ab"```。
 
 9. 关于减号 - 的用途
+	1. 上面提到```-```可以当成 stdin 或 stdout。某些命令需要用到文件名 (例如 tar) 来进行处理时，该 stdin 与 stdout 可以利用减号 "-" 来替代， 举例来说：
+		- ```[root@www ~]# tar -cvf - /home | tar -xvf -```
+
+# 正则表达式（鸟哥称为正规表达式）
+鸟哥这里用了很大的篇幅介绍正则表达式，这儿大多数编程语言学习时候都会进行学习，所以不做重点学习，大概预览一下。
+
+# 文件的格式化与相关处理
