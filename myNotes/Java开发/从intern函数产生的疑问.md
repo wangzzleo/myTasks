@@ -16,38 +16,34 @@
 
 
 3. intern函数如下：
-```
+<pre><code>
     /**
      * Returns a canonical representation for the string object.
-     * <p>
      * A pool of strings, initially empty, is maintained privately by the
      * class {@code String}.
-     * <p>
      * When the intern method is invoked, if the pool already contains a
      * string equal to this {@code String} object as determined by
      * the {@link #equals(Object)} method, then the string from the pool is
      * returned. Otherwise, this {@code String} object is added to the
      * pool and a reference to this {@code String} object is returned.
-     * <p>
      * It follows that for any two strings {@code s} and {@code t},
      * {@code s.intern() == t.intern()} is {@code true}
      * if and only if {@code s.equals(t)} is {@code true}.
-     * <p>
      * All literal strings and string-valued constant expressions are
      * interned. String literals are defined in section 3.10.5 of the
-     * <cite>The Java&trade; Language Specification</cite>.
-     *
+     * The Java&trade; Language Specification.
      * @return  a string that has the same contents as this string, but is
      *          guaranteed to be from a pool of unique strings.
      */
+
     public native String intern();
-```
+</code></pre>
 关于intern函数的Javadoc描述是说：字符串常量池有String类单独维护，它最初是空的。当intern方法被调用时，如果池中已经包含了一个由equals方法判断为true的字符串对象，则会将池中的string返回。否则这个string对象会被添加到池中并且返回这个对象的引用。所有的文字字符串和字符串值常量表达式都是内部的。
 
 ### 验证
 本着怀疑精神，我下载了Oracle JDK6，JDK7和JDK8，分别验证书中结果。
 1. 《深入理解JVM ＆ G1 GC》内容验证
-```
+<pre><code>
     public static void main(String[] args) {
         String s = new String("1");
         s.intern();
@@ -60,9 +56,9 @@
         String s4 = "11";
         System.out.println(s3 == s4);
     }
-```
+</code></pre>
 - JDK6
-```
+<pre><code>
 D:\Java>D:\Java\jdk1.6\bin\java -version
 java version "1.6.0_45"
 Java(TM) SE Runtime Environment (build 1.6.0_45-b06)
@@ -73,9 +69,9 @@ D:\Java>D:\Java\jdk1.6\bin\javac StringInternDemo.java
 D:\Java>D:\Java\jdk1.6\bin\java StringInternDemo
 false
 false
-```
+</code></pre>
 - JDK7
-```
+<pre><code>
 D:\Java>D:\Java\jdk1.7\bin\java -version
 java version "1.7.0_80"
 Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
@@ -86,9 +82,9 @@ D:\Java>D:\Java\jdk1.7\bin\javac StringInternDemo.java
 D:\Java>D:\Java\jdk1.7\bin\java StringInternDemo
 false
 true
-```
+</code></pre>
 - JDK8
-```
+<pre><code>
 D:\Java>java -version
 java version "1.8.0_202"
 Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
@@ -99,9 +95,9 @@ D:\Java>javac StringInternDemo.java
 D:\Java>java StringInternDemo
 false
 true
-```
+</code></pre>
 2. 《深入理解Java虚拟机 JVM高级特性与最佳实践 第2版》内容验证
-```
+<pre><code>
 public class RuntimeConstantPoolOOM {
     public static void main(String[] args) {
         String str1 = new StringBuilder("计算机").append("软件").toString();
@@ -111,31 +107,31 @@ public class RuntimeConstantPoolOOM {
         System.out.println(str2.intern() == str2);
     }
 }
-```
+</code></pre>
 - JDK6
-```
+<pre><code>
 D:\Java>D:\Java\jdk1.6\bin\javac  -encoding UTF-8 RuntimeConstantPoolOOM.java
 
 D:\Java>D:\Java\jdk1.6\bin\java RuntimeConstantPoolOOM
 false
 false
-```
+</code></pre>
 - JDK7
-```
+<pre><code>
 D:\Java>D:\Java\jdk1.7\bin\javac  -encoding UTF-8 RuntimeConstantPoolOOM.java
 
 D:\Java>D:\Java\jdk1.7\bin\java RuntimeConstantPoolOOM
 true
 false
-```
+</code></pre>
 - JDK8
-```
+<pre><code>
 D:\Java>javac -encoding UTF-8 RuntimeConstantPoolOOM.java
 
 D:\Java>java RuntimeConstantPoolOOM
 true
 false
-```
+</code></pre>
 书中的结果没问题，这个也不至于，代码明明白白。
 ### 我的疑问
 
@@ -158,7 +154,7 @@ false
 
 另外关于字符串相加再额外说一点，```new String("1") + new String("1");```编译时会被优化为```new StringBuilder("1").appeng("1");```。另外，字面量直接相加时，发生编译时常量折叠，也就是```"1"+"1"```相当于```"11"```。且会当做常量对待 ☞ *“当+运算符的左右两个操作数都是编译时常量时，这个+表达式也会被任务是编译时常量表达式”。*
 附JDK1.6 main方法javap结果：
-```
+<pre><code>
 public static void main(java.lang.String[]);
   Code:
    Stack=4, Locals=3, Args_size=1
@@ -191,9 +187,9 @@ public static void main(java.lang.String[]);
    55:  iconst_0
    56:  invokevirtual   #12; //Method java/io/PrintStream.println:(Z)V
    59:  return
-```
+</code></pre>
 JDK1.7 main方法：
-```
+<pre><code>
 public static void main(java.lang.String[]);
   flags: ACC_PUBLIC, ACC_STATIC
   Code:
@@ -227,7 +223,7 @@ public static void main(java.lang.String[]);
       55: iconst_0
       56: invokevirtual #12                 // Method java/io/PrintStream.println:(Z)V
       59: return
-```
+</code></pre>
 
 2. 再看《深入理解Java虚拟机 JVM高级特性与最佳实践 第2版》
 
