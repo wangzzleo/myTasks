@@ -17,7 +17,7 @@
 
 8. [玩转Spring全家桶（极客时间）](https://time.geekbang.org/course/intro/156)
 
-9. [Java核心36讲（极客时间)](https://time.geekbang.org/column/article/8053)
+9. [Java核心36讲（极客时间)](https://time.geekbang.org/column/article/8053)  完成
 
 10. 设计模式系统学习
 
