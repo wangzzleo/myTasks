@@ -1,7 +1,6 @@
 # 我的待学习技能
 
-1. [学习资源：程序设计入门——C语言](https://www.icourse163.org/course/0809ZJU007A-199001)  完成  
-   [程序demo：c程序demo](https://github.com/wangzzleo/cProgramDemo)
+1. [学习资源：程序设计入门——C语言](https://www.icourse163.org/course/0809ZJU007A-199001)  基础版完成，进阶正在进行...
 
 2. [算法面试通关40讲](https://time.geekbang.org/course/intro/130)
 
@@ -13,7 +12,7 @@
 
 6. Python
 
-7. shell脚本
+7. shell脚本 看的是《鸟哥的linux私房菜》看到一半，最近搁置了，等待重新学习...
 
 8. [玩转Spring全家桶（极客时间）](https://time.geekbang.org/course/intro/156)
 
@@ -35,4 +34,4 @@
 
 17. 《实战Java高并发程序设计》  完成
 
-18. MySQL实战45讲（极客时间）
+18. MySQL实战45讲（极客时间） 正在进行...
