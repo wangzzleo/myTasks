@@ -1,7 +1,7 @@
 # 我的笔记
 
 ## [C语言](./myNotes/C语言)
-
+   1. [C笔记](./myNotes/C语言/C笔记.md)
 ## [git](./myNotes/git)  
    1. [Git笔记](./myNotes/git/Git笔记.md)
 
@@ -14,7 +14,7 @@
    6. [日常更新学习资料](./myNotes/Java开发/日常更新学习资料.md)
    7. [日常笔记](./myNotes/Java开发/日常笔记.md)
    8. [日志配置-logback](./myNotes/Java开发/日志配置-logback.md)
-   9. [架构演变史](./myNotes/Java开发/架构演变史.md)
+   9. [HttpClient使用](./myNotes/Java开发/HttpClient使用.md)
    10. [转问题+回答-有哪些质量很高的Java面试题](./myNotes/Java开发/转问题+回答-有哪些质量很高的Java面试题.md)
    11. [面向对象](./myNotes/Java开发/面向对象.md)
 ## [JVM](./myNotes/JVM)
@@ -32,13 +32,18 @@
 ## [MyBatis](./myNotes/MyBatis)
    1. [MyBatis源码简单分析](./myNotes/MyBatis/MyBatis源码简单分析.md)
    2. [mybatis-config.xml](./myNotes/MyBatis/mybatis-config.xml)
+
+## [Nginx](./myNotes/Nginx)
+   1. [Nginx笔记](./myNotes/Nginx/Nginx笔记.md)
 ## [Python](./myNotes/Python)
 
 ## [Redis](./myNotes/Redis)
-
+   1. [Redis实现分布式锁的几种方式](./myNotes/Redis/Redis实现分布式锁的几种方式.md)
+   2. [Redis使用场景](./myNotes/Redis/Redis使用场景.md)
 ## [Spring](./myNotes/Spring)
    1. [玩转Spring全家桶 -- 学习笔记](./myNotes/Spring/玩转Spring全家桶%20--%20学习笔记.md)
-   1. [SpringBoot](./myNotes/Spring/SpringBoot.md)
+   2. [SpringBoot](./myNotes/Spring/SpringBoot.md)
+   3. [Spring-Security](./myNotes/Spring/Spring-Security.md)
 
 ## [并发](./myNotes/并发)
    1. [ThreadLocal原理](./myNotes/并发/ThreadLocal原理.md)
@@ -48,19 +53,30 @@
 ## [日记本](./myNotes/日记本)
    1. [dabashow项目说明文档](./myNotes/日记本/dabashow项目说明文档.md)
    2. [面试问题总结](./myNotes/日记本/面试问题总结.md)
+   3. [techOfWork](./myNotes/日记本/techOfWork.md)
+   4. [2019-6-21](./myNotes/日记本/2019-6-21.md)
+   5. [2019-7-15](./myNotes/日记本/2019-7-15.md)
+  
+## [软件开发](./myNotes/软件开发)
+   1. [QPS等](./myNotes/软件开发/QPS等)
+   2. [架构演变史](./myNotes/软件开发/架构演变史)
 ## [数据结构与算法](./myNotes/数据结构与算法)
    1. [leetcode-2019年4月16日](./myNotes/数据结构与算法/leetcode-2019年4月16日.md)
 ## [数据库](./myNotes/数据库)
    1. [MySQL 登录异常](./myNotes/数据库/MySQL%20登录异常.md)
-   2. [MySQL中SQL语句执行](./myNotes/数据库/MySQL中SQL语句执行.md)
+   2. [MySQL创建函数错误](./myNotes/数据库/MySQL创建函数错误.md)
    3. [MySQL事务隔离级别](./myNotes/数据库/MySQL事务隔离级别.md)
-   4. [MySQL创建函数错误](./myNotes/数据库/MySQL创建函数错误.md)
-   5. [MySQL序列解决方案](./myNotes/数据库/MySQL序列解决方案.md)
-   6. [SQL优化](./myNotes/数据库/SQL优化.md)
-   7. [数据库笔记](./myNotes/数据库/数据库笔记.md)
+   4. [MySQL序列解决方案](./myNotes/数据库/MySQL序列解决方案.md)
+   5. [SQL优化](./myNotes/数据库/SQL优化.md)
+   6. [数据库笔记](./myNotes/数据库/数据库笔记.md)
+   7. [一条SQL语句是如何执行的](./myNotes/数据库/一条SQL语句是如何执行的.md)
 ## [网络](./myNotes/网络)
    1. [HTTPS](./myNotes/网络/HTTPS.md)
    2. [《你猜一个 TCP 连接上面能发多少个 HTTP 请求》笔记](./myNotes/网络/《你猜一个%20TCP%20连接上面能发多少个%20HTTP%20请求》笔记.md)
+
+## [小程序开发](./myNotes/小程序开发)
+   1. [小程序开发](./myNotes/小程序开发/小程序开发.md)
+
 ## [原创小说](./myNotes/原创小说)
    1. [大宝与二宝](./myNotes/原创小小说/大宝与二宝.md)
    2. [故乡的真相](./myNotes/原创小小说/故乡的真相.md)
