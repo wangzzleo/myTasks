@@ -61,7 +61,7 @@
    1. [QPS等](./myNotes/软件开发/QPS等)
    2. [架构演变史](./myNotes/软件开发/架构演变史)
 ## [数据结构与算法](./myNotes/数据结构与算法)
-   1. [leetcode-2019年4月16日](./myNotes/数据结构与算法/leetcode-2019年4月16日.md)
+   1. [leetcode-notes](./myNotes/数据结构与算法/leetcode-notes.md)
 ## [数据库](./myNotes/数据库)
    1. [MySQL 登录异常](./myNotes/数据库/MySQL%20登录异常.md)
    2. [MySQL创建函数错误](./myNotes/数据库/MySQL创建函数错误.md)
