@@ -1,7 +1,7 @@
 # 我的待学习内容
 
 1. 软
-   1. [程序设计入门——C语言](https://www.icourse163.org/course/0809ZJU007A-199001)  已完成
+   1. <span style="color:green;">[程序设计入门——C语言](https://www.icourse163.org/course/0809ZJU007A-199001)  已完成</span>
    2. 微积分与线性代数复习
    3. 电子电路
    4. 计算机体系结构
@@ -18,7 +18,7 @@
    2. Python
    3. shell脚本 看的是《鸟哥的linux私房菜》 完成50%
    4. linux深入学习
-   5. [Java核心36讲（极客时间)](https://time.geekbang.org/column/article/8053)  完成
+   5. <span style="color:green;">[Java核心36讲（极客时间)](https://time.geekbang.org/column/article/8053)  完成</span>
    6. [玩转Spring全家桶（极客时间）](https://time.geekbang.org/course/intro/156)
    7. 设计模式系统学习
    8. 单片机
@@ -27,7 +27,7 @@
    11. [掘金Redis小册](https://juejin.im/book/5afc2e5f6fb9a07a9b362527)
    12. 学习吉他🎸，口琴😂
    13. 哈佛大学公开课《CS50》 这个不看了
-   14. 《实战Java高并发程序设计》  完成
+   14. <span style="color:green;">《实战Java高并发程序设计》  完成</span>
    15. MySQL深入学习
    16. Dubbo源码 正在进行...
    17. MyBatis源码 正在进行...
