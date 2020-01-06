@@ -41,6 +41,7 @@
 	- 《Netty实战》
 	- 《云原生Java》（Cloud Native Java）
 	- 《深入分布式缓存：从原理到实践》
+	- 《高性能mysql》
 
 # 文学作品
 
